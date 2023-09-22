@@ -1,0 +1,29 @@
+h1,h2,h3,h4,h5,h6{font-family: 'Bebas Neue', sans-serif;
+align-content: center;
+}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+body {
+    background-color:rgba(0, 150, 250, 0.91);
+}
+header h1{
+    font-size: 150px;
+}
+h1{
+    font-size: 100px
+
+}
+p{
+    font-size: 30px;
+    font-family: 'IBM Plex Mono', monospace;
+    width: 100%;
+    align-content: center;
+}
+img{
+    align-items: center;
+   width: 20%;
+   border-radius: 20%;
+   border: black solid 5px;
+
+
+    
+}
