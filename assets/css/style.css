@@ -15,7 +15,7 @@ h1{
 p{
     font-size: 30px;
     font-family: 'IBM Plex Mono', monospace;
-    width: 100%;
+    width: 150%;
     align-content: center;
 }
 img{
@@ -31,5 +31,21 @@ img{
 @media screen and (max-width: 600px) {
     header h1 {
       font-size: 35px;
+    }
+  }
+  @media screen and (min-width: 390px) {
+    .navDemo {
+      max-width: 600px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .w3-content h1{
+      font-size: 40px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .w3-content p{
+      font-size: 15px;
+      width: 90%;
     }
   }
