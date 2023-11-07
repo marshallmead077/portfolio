@@ -41,8 +41,6 @@ button {
 
 h1 { font-weight: 400; }
 
-
-    
     
     @media screen and (max-width: 600px) {
         header h1 {
