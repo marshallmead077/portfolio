@@ -1,77 +1,22 @@
-h1,h2,h3,h4,h5,h6{font-family: 'Bebas Neue', sans-serif;
-align-content: center;
-}
-.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-body {
-    background-color:rgba(0, 150, 250, 0.91);
-}
-header h1{
-    font-size: 150px;
-}
-h1{
-    font-size: 100px
-
-}
-h2{
-  font-size: 50px;
- 
-}
-p{
-    font-size: 30px;
-    font-family: 'IBM Plex Mono', monospace;
-    width: 150%;
-    align-content: center;
-}
-.headshot{
-    align-items: center;
-   width: 20%;
-   min-width: 150px;
-   border-radius: 20%;
-   border: black solid 5px;   
-}
-.links{
-  padding:10px;
-  margin-right: 10px;
-  border: 1px solid black;
-  background-color: black;
-  text-decoration: none;
-  color: white;
-  transition: all 0.1s ease-in-out;
-  border-radius: 5px;
-}
-.links:hover {
-  background-color: white;
-  color: black;
-  border-color: white;
-}
-
-.clickme{
-  width: 300px;
-  padding:20px;
-  border-radius: 5px;
+body{
+  font-family: 'Source Code Pro', monospace !important;
 }
 
 
+img.card-img-top{
+  width: 100%;
+  
+}
 
+h1,body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  overflow-x: hidden;
+}
 
-@media screen and (max-width: 600px) {
-    header h1 {
-      font-size: 35px;
-    }
-  }
-  @media screen and (min-width: 390px) {
-    .navDemo {
-      max-width: 600px;
-    }
-  }
-  @media screen and (max-width: 600px) {
-    .w3-content h1{
-      font-size: 40px;
-    }
-  }
-  @media screen and (max-width: 600px) {
-    .w3-content p{
-      font-size: 15px;
-      width: 90%;
-    }
-  }
+@media screen and (max-width: 320px) {
+
+  .card{
+ width: 18rem;
+}
+}
