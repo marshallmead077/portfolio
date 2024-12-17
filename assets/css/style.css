@@ -1,24 +1,141 @@
-body{
+/* General Styling */
+body {
   font-family: 'Source Code Pro', monospace !important;
+  background-color: #F8F9FA; /* Light Gray Background */
+  color: #212529; /* Dark Gray Text */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
 }
 
-
-img.card-img-top{
-  width: 100%;
-  
-}
-
-
-
-h1,body {
+/* Typography */
+h1, h2 {
   font-family: "Roboto", sans-serif;
+  color: #007BFF; /* Bright Blue for Headings */
+}
+
+p, li, body {
   font-size: 18px;
-  overflow-x: hidden;
+  line-height: 1.6; /* Improves readability */
+  color: #212529; /* Dark Text */
+}
+
+/* Image Styling */
+img.card-img-top, img.rounded {
+  width: 100%;
+  max-width: 400px; /* Ensures responsiveness for headshot */
+  border: 5px solid #007BFF; /* Adds a bright blue border to images */
+  border-radius: 10px; /* Smooth rounded corners */
+}
+
+/* Navigation */
+.nav-link {
+  color: #212529; /* Neutral Link Color */
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: #007BFF; /* Bright Blue on Hover and Active */
+  text-decoration: none;
+}
+
+.nav-pills .nav-link {
+  border-radius: 5px;
+}
+
+.nav-pills .nav-link:hover {
+  background-color: #E9ECEF; /* Light hover background */
+}
+
+/* Cards */
+.card {
+  width: 18rem;
+  margin: auto;
+  border: 1px solid #E9ECEF; /* Soft Border for Card */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.card:hover {
+  transform: scale(1.02); /* Interactive hover effect */
+  transition: transform 0.3s ease;
+}
+/* web-projects Section */
+.web-projects-card {
+  width: 100%;
+  max-width: 400px; /* Set a max-width for larger screens */
+  margin: 0 auto;
+  border: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px; /* Optional padding for better spacing */
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .web-projects {
+    max-width: 80%; /* Reduce max-width for medium-sized screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .web-projects {
+    max-width: 90%; /* Further reduce max-width for small screens */
+  }
+}
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+  background-color: #212529; /* Dark Gray Background */
+  color: #F8F9FA; /* Light Text */
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer a {
+  color: #F8F9FA; /* Footer Links Match Light Text */
+}
+
+footer a:hover {
+  color: #007BFF;
+}
+footer {
+  text-align: center; /* Centers text in footer */
+}
+
+footer .d-flex {
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  img.card-img-top, img.rounded {
+    max-width: 300px; /* Reduce size on smaller screens */
+  }
+
+  .card {
+    width: 90%; /* Responsive card width for small devices */
+  }
+
+  h1, h2 {
+    font-size: 24px; /* Adjust heading size for smaller screens */
+  }
 }
 
 @media screen and (max-width: 320px) {
+  .card {
+    width: 18rem;
+  }
 
-  .card{
- width: 18rem;
-}
+  h1, h2 {
+    font-size: 20px; /* Further adjust for very small screens */
+  }
 }
